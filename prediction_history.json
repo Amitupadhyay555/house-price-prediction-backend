@@ -1,0 +1,88 @@
+[
+  {
+    "timestamp": "2025-05-30T15:17:38.625258",
+    "input": {
+      "Size": 4000.0,
+      "Bedrooms": 4,
+      "Bathrooms": 4.0,
+      "Stories": 3,
+      "Parking": 2,
+      "Location": "Seattle",
+      "Condition": "Good",
+      "Type": "Single Family",
+      "Year Built": 2015,
+      "Sale Year": null,
+      "Sale Month": null
+    },
+    "prediction": 583282.8961595191,
+    "confidence": 0.85
+  },
+  {
+    "timestamp": "2025-05-30T17:28:58.158393",
+    "input": {
+      "Size": 2500.0,
+      "Year_Built": 2017,
+      "Bedrooms": 5,
+      "Bathrooms": 5,
+      "Stories": 3,
+      "Parking": 2,
+      "Location": "Seattle",
+      "Condition": "Good",
+      "Type": "Single Family",
+      "Sale_Year": 2025,
+      "Sale_Month": 5
+    },
+    "predicted_price": 655986.2403232733
+  },
+  {
+    "timestamp": "2025-05-30T17:30:48.847001",
+    "input": {
+      "Size": 5000.0,
+      "Year_Built": 2023,
+      "Bedrooms": 3,
+      "Bathrooms": 3,
+      "Stories": 33,
+      "Parking": 3,
+      "Location": "Seattle",
+      "Condition": "Good",
+      "Type": "Single Family",
+      "Sale_Year": 2025,
+      "Sale_Month": 5
+    },
+    "predicted_price": 532331.1265101805
+  },
+  {
+    "timestamp": "2025-05-30T17:31:36.255528",
+    "input": {
+      "Size": 2500.0,
+      "Year_Built": 2014,
+      "Bedrooms": 3,
+      "Bathrooms": 3,
+      "Stories": 2,
+      "Parking": 1,
+      "Location": "Seattle",
+      "Condition": "Good",
+      "Type": "Single Family",
+      "Sale_Year": 2025,
+      "Sale_Month": 5
+    },
+    "predicted_price": 615821.650988228
+  },
+  {
+    "timestamp": "2025-05-30T17:36:12.050613",
+    "input": {
+      "Size": 3700.0,
+      "Year_Built": 2013,
+      "Bedrooms": 3,
+      "Bathrooms": 3,
+      "Stories": 2,
+      "Parking": 1,
+      "Location": "Seattle",
+      "Condition": "Good",
+      "Type": "Single Family",
+      "Sale_Year": 2025,
+      "Sale_Month": 5
+    },
+    "predicted_price": 536183.256635594
+  }
+]
