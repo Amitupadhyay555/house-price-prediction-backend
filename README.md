@@ -55,12 +55,12 @@ pip install -r requirements.txt
 
 1. Train the model and generate visualizations:
 ```bash
-python house_price_analysis.py
+python3 house_price_analysis.py
 ```
 
 2. Start the API server:
 ```bash
-python api.py
+python3 api.py
 ```
 
 The API will be available at `http://localhost:8000`

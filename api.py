@@ -245,15 +245,15 @@ def get_prediction_history():
         logger.error(f"Error getting prediction history: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
 
-if __name__ == "__main__":
-    logger.info("Starting API server...")
-    uvicorn.run(
-        app,
-        host="127.0.0.1",
-        port=8000,
-        workers=1,
-        limit_concurrency=10,
-        timeout_keep_alive=5,
-        access_log=False,
-        log_level="info"
-    )
+# if __name__ == "__main__":
+#     logger.info("Starting API server...")
+#     uvicorn.run(
+#         app,
+#         host="127.0.0.1",
+#         port=8000,
+#         workers=1,
+#         limit_concurrency=10,
+#         timeout_keep_alive=5,
+#         access_log=False,
+#         log_level="info"
+#     )
