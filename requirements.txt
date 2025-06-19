@@ -1,8 +1,20 @@
+# fastapi
+# uvicorn
+# pandas
+# numpy
+# scikit-learn
+# joblib
+# pydantic
+# python-multipart
+# uvloop
+# psutil
 fastapi
 uvicorn
 pandas
 numpy
-scikit-learn
+# scikit-learn==1.2.2  # ← pin the exact version used during training
+# sklearn: 1.6.1
+scikit-learn==1.6.1
 joblib
 pydantic
 python-multipart
